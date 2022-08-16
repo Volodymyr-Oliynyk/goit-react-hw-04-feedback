@@ -2,7 +2,7 @@ import React from 'react';
 import { StatisticsStyled } from './StatisticsStyled';
 import PropTypes from 'prop-types';
 
-const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
+const Statistics = ({ good, neutral, bad, total, positivePercentage}) => {
   return (
     <StatisticsStyled>
       <p>Good: {good}</p>
